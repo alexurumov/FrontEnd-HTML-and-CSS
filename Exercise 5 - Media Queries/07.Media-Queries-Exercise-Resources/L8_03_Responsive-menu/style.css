@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 60px;
+    background: #cccccc;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background: white;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+header > nav > ul > li {
+    overflow: hidden;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
+    background: rgb(42, 42, 42);
+    padding: 10px;
+    font-size: 10px;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+@media (max-width: 499px) {
+    nav::before {
+        content: 'X Menu';
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header {
+        border: none;
+        flex-direction: column;    
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 0;
+    }
+
+    header nav ul li {
+        align-self: stretch;
+        display: flex;
+    }
+
+    header nav ul li a {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    nav::before {
+        content: 'X Menu';
+        text-align: center;
+    }
+
+    header {
+        border: none;
+        flex-direction: column;    
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-radius: 0;
+    }
+
+    header nav ul li {
+        align-self: stretch;
+        display: flex;
+    }
+
+    header nav ul li a {
+        width: 100%;
+    }
+
+}

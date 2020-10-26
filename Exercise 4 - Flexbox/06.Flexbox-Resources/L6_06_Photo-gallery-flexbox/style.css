@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+ul, 
+li {
+    display: flex;;
+    flex-flow: row wrap;
+}
+
+.gallery ul {
+    justify-content: space-between;
+}
+
+body {
+    background: lightgray;
+    padding: 30px;
+}
+
+li {
+    flex: 1;
+    border: 10px solid black;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+h7 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}

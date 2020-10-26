@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 50vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+figure {
+    height: 250px;
+    width: 150px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+}
+
+.larger {
+    width: 400px;
+}
+
+.larger img {
+    width: 100%;
+    padding: 0 10px; 
+}

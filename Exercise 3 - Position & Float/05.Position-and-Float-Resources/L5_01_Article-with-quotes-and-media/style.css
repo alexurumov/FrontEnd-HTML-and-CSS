@@ -1,0 +1,57 @@
+body {
+    padding: 0 15% ;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: lightgrey;
+}
+
+h1, ul, li, a {
+    display: inline-block;
+}
+
+nav {
+    border-bottom: 2px solid black;
+}
+
+ul {
+    padding-left: 100px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.right {
+    float: right;
+}
+
+section.right {
+    max-width: 40%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quote {
+    margin: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    justify-content: left;
+}
+
+.author {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    float: right;
+}

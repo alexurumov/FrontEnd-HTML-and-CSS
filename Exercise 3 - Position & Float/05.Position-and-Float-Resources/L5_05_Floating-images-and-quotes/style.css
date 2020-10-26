@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border: 2px solid black;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+blockquote, 
+h1, 
+h2,
+h3,
+h4,
+h5 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    font-size: 20px;
+}
+
+header {
+    border-bottom: solid 3px black;
+    padding-bottom: 10px;
+}
+
+.right {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.clear-fix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.content-and-description > blockquote {
+    width: 45%;
+    margin: 0;
+}
+
+.content-and-description > p {
+    width: 55%;
+    margin: 0;
+    border-right: solid 4px #ddd;
+}
+
+.content-and-description blockquote {
+    padding-left: 30px;
+}
+
+.content-and-description p {
+    padding-right: 20px;
+    
+}
+
+
+
+blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+blockquote p {
+    margin-top: 0;
+}
+
+blockquote footer {
+    text-align: right;
+}

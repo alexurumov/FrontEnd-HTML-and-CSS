@@ -1,0 +1,25 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 18;
+}
+
+ul {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+li {
+    border: 0.4rem solid black;
+    display: inline-block;
+    box-sizing: content-box;
+    vertical-align: middle;    
+    margin: 10px
+}
+
+img {
+    width: 300px;
+    padding: 10px;
+}

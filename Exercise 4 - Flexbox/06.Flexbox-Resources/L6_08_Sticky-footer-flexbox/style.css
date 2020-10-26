@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    align-self: flex-end;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    padding-left: 20px;
+}
+

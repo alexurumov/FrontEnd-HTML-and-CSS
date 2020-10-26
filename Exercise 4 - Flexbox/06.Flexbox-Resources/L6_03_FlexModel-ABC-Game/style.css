@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 150px;
+    margin: 5px;
+    border: 1px solid black;
+    order: 2;
+}
+
+span:nth-child(1),
+span:nth-child(3),
+span:nth-child(7),
+span:nth-child(10) {
+    order: 5;
+}
+
+span:nth-child(11) {
+    order: -1;
+}
+
+span:nth-child(2) {
+    order: 0;
+}
+
+span:nth-child(12) {
+    order: 1;
+}
+
+span:nth-child(5) {
+    order: 4;
+}
+
+span:nth-child(6) {
+    order: 3;
+}
